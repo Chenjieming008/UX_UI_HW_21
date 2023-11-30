@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+nav a.active {
+    color: cornflowerblue;
+}
 
 .logo a {
     text-decoration: none;
@@ -208,7 +211,12 @@ h4 {
 }
 
 .work button:hover {
-    background-color: lightblue;
+    background-color: lightskyblue;
+}
+
+.work a {
+    text-decoration: none; 
+    color: inherit; 
 }
 
 
